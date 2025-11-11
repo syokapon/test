@@ -100,9 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
             li.className = 'memo-item';
             li.innerHTML = `
                 <div class="memo-item-header">
-								    // ↓↓↓ この1個所のみ修正　created_at にする
                     <small class="">${new Date(memo.created_at).toLocaleString()}</small>
-								    // ↑↑↑ この1個所のみ修正
                     <div class="memo-item-actions">
                         <button class="btn-update">更新</button>
                         <button class="btn-delete">削除</button>
